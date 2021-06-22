@@ -1,0 +1,228 @@
+
+.brand-logo{
+    margin-left: -100px;
+    
+
+    
+}
+    
+
+.container ul li a:hover{
+    background-color: grey;
+
+}
+#middle-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#right-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+#button-nav{
+    border-radius: 30px;
+    
+
+}
+.box-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box a{
+    color: black;
+    transition: 0.5s;
+}
+
+.box a:hover{
+    background-color: inherit;
+    
+}
+.box-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-2 a{
+    color: black;
+}
+.box-2 li:nth-child(2){
+    padding-right: 20px;
+   
+}
+.box-2 li:nth-child(3){
+    padding-right: 10px;
+   
+}
+.horizantal{
+    border:1px solid rgb(187, 186, 186);
+    width: 300px;
+position: absolute;
+bottom: 30px;
+margin-left: 40px;
+transition: 1s;
+
+    
+}
+    
+
+
+
+
+.card{
+  width: 500px;
+  position: absolute;
+  top: 140px;
+  left: 150px;
+}
+
+
+
+
+    
+.card-title h2,p{
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#buttom1{
+    height:45px;
+    text-align: center;
+    display: block;
+    width: 180px;
+    margin-left: 30px;
+    padding: 3px;
+
+}
+#learn-more p{
+    margin-top: 20px; 
+ 
+   
+}
+
+
+.container2{
+    position: relative;
+    margin-top: -5px;
+}
+
+.heading{
+    position: absolute;
+    top: 10%;
+    
+    
+
+}
+.container2 p{
+    position: absolute;
+    top:30% ;
+
+}
+#container2-btn{
+   margin-top:-100px;
+   margin-left: 60px;
+}
+.row{
+    padding: 50px;
+    margin-left: 60px;
+
+}
+.row p{
+    margin-left:-20px;
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+.second-coloum{
+    margin-top: 80px;
+}
+.third-coloum{
+    margin-top: 80px;
+}
+footer a{
+    color: white;
+}
+.container .flex ul li a:hover{
+    background-color: black;
+    color: grey;
+    
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+.social-media ul li{
+    padding: 25px;
+}
+.social-media ul li a:hover{
+    background-color: inherit;
+    color: grey;
+}
+.store .google-store{
+
+  position: absolute;
+  right: 10px;
+  bottom: 20px; 
+}
+.store .apple-store{
+    position: absolute;
+    right: 180px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width:600px) and (max-width:1090px){
+    .card{
+        width: 80%;
+        border: none;
+        margin: 0 auto;
+        padding: 0 auto;
+        left: 10px;
+        top: 10px;
+        position: relative;
+       
+        
+       
+    }
+    .horizantal{
+        display: none;
+    }
+    .heading{
+       top: -20px;
+       font-size: 25px;
+    }
+    .container2 p{
+        top: 10px;
+    }
+    .row{
+        margin-left: -20px;
+    }
+    .store .apple-store{
+    bottom: 5px;
+    right: 20px;
+    }
+    .store .google-store{
+        bottom: 60px;
+    }
+}
